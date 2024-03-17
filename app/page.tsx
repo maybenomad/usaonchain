@@ -139,7 +139,7 @@ export default function Home() {
           <span style={{ color: "#c40c2e" }}>fuck</span> is a kilometer?
         </div>
         <p className="text-2xl w-[50%] text-center">
-          We don't know and we don't care. Because we own a piece of the
+          We don&#39;t know and we don&#39;t care. Because we own a piece of the
           greatest country on earth.
         </p>
       </section>
