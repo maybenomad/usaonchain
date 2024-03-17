@@ -1,4 +1,3 @@
-import Image from "next/image";
 import localFont from "next/font/local";
 
 import * as Icon from "./icons";
