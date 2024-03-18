@@ -1,3 +1,4 @@
+import Image from "next/image";
 import localFont from "next/font/local";
 
 import * as Icon from "./icons";
@@ -58,11 +59,19 @@ export default function Home() {
       </header>
       <section
         className={csx(
-          "relative h-[300px] md:h-[400px] lg:h-[600px] w-full overflow-hidden flex items-center justify-center"
+          "relative h-[300px] md:h-[400px] lg:h-[600px] w-full overflow-hidden flex items-center justify-center",
+          "bg-flag bg-[length:1000px_auto] md:bg-none"
         )}
       >
+        <Image
+          className="relative drop-shadow-2xl md:hidden"
+          src="/apaches.png"
+          height={400}
+          width={600}
+          alt="AMERICA"
+        />
         <video
-          className="h-[100%] w-[100%] object-cover"
+          className="hidden md:block h-[100%] w-[100%] object-cover"
           src="/patriots.webm"
           autoPlay
           loop
