@@ -5,7 +5,7 @@ import type { FireworksHandlers } from "@fireworks-js/react";
 
 import { useRef } from "react";
 
-export default () => {
+export default function FireworksOverlay() {
   const ref = useRef<FireworksHandlers>(null);
   return (
     <Fireworks
@@ -19,4 +19,4 @@ export default () => {
       }}
     />
   );
-};
+}
