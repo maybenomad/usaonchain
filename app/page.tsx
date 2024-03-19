@@ -61,10 +61,10 @@ export default function Home() {
         </h1>
         <Image
           className={csx(
-            "w-auto absolute z-40",
+            "w-auto absolute z-10",
             "h-[150px] left-[-20px] top-[200px]",
-            "md:h-[160px] md:left-[-170px] md:top-[0px]",
-            "lg:h-[300px] lg:left-[-370px] lg:top-[0px]"
+            "md:h-[160px] md:left-[-140px] md:top-[0px]",
+            "lg:h-[280px] lg:left-[-220px] lg:top-[0px]"
           )}
           src="/eagle.png"
           width={350}
@@ -73,10 +73,10 @@ export default function Home() {
         />
         <Image
           className={csx(
-            "w-auto absolute z-40 rotate-12",
+            "w-auto absolute z-10 rotate-12",
             "h-[150px] right-[-40px] top-[170px]",
-            "md:h-[180px] md:right-[-200px] md:top-[-20px]",
-            "lg:h-[300px] lg:right-[-350px]"
+            "md:h-[180px] md:right-[-180px] md:top-[-20px]",
+            "lg:h-[300px] lg:right-[-240px] lg:top-[-40px]"
           )}
           src="/cheeseburger.png"
           width={300}
