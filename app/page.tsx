@@ -1,5 +1,6 @@
 import Image from "next/image";
 import localFont from "next/font/local";
+import Fireworks from "./fireworks";
 
 import * as Icon from "./icons";
 
@@ -90,7 +91,7 @@ export default function Home() {
         )}
       >
         <Image
-          className="relative drop-shadow-2xl md:hidden"
+          className="relative drop-shadow-2xl z-40 md:hidden"
           src="/apaches.png"
           height={400}
           width={600}
@@ -103,6 +104,7 @@ export default function Home() {
           loop
           muted
         ></video>
+        <Fireworks />
         <Image
           className={csx(
             "w-auto absolute z-40",
