@@ -16,6 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="icon" href="/usaflag.svg" type="image/svg" sizes="32x32" />
       <body className={inter.className}>{children}</body>
     </html>
   );

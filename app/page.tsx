@@ -44,7 +44,7 @@ export default function Home() {
       >
         <h1
           style={{ zIndex: 30 }}
-          className={`relative flex w-[50%] md:w-full gap-x-4 flex-wrap items-center my-0 text-[68px] md:text-[80px] lg:text-[120px] ${myFont.className} items-center justify-center`}
+          className={`z-40 relative flex w-[50%] md:w-full gap-x-4 flex-wrap items-center my-0 text-[68px] md:text-[80px] lg:text-[120px] ${myFont.className} items-center justify-center`}
         >
           <div>
             <span style={{ color: "#195ba6" }}>AMER</span>ICAN{" "}
@@ -56,6 +56,30 @@ export default function Home() {
             COIN
           </span>
         </h1>
+        <Image
+          className={csx(
+            "w-auto absolute z-40",
+            "h-[150px] left-[-20px] top-[200px]",
+            "md:h-[160px] md:left-[-170px] md:top-[0px]",
+            "lg:h-[300px] lg:left-[-370px] lg:top-[0px]"
+          )}
+          src="/eagle.png"
+          width={350}
+          height={350}
+          alt="AMERICA"
+        />
+        <Image
+          className={csx(
+            "w-auto absolute z-40 rotate-12",
+            "h-[150px] right-[-40px] top-[170px]",
+            "md:h-[180px] md:right-[-200px] md:top-[-20px]",
+            "lg:h-[300px] lg:right-[-350px]"
+          )}
+          src="/cheeseburger.png"
+          width={300}
+          height={300}
+          alt="AMERICA"
+        />
       </header>
       <section
         className={csx(
@@ -77,14 +101,38 @@ export default function Home() {
           loop
           muted
         ></video>
+        <Image
+          className={csx(
+            "w-auto absolute z-40",
+            "h-[200px] right-[-30px] bottom-0",
+            "md:h-[270px]",
+            "lg:h-[450px] lg:right-0"
+          )}
+          src="/model1.png"
+          width={600}
+          height={600}
+          alt="AMERICA"
+        />
       </section>
-      <section className="flex flex-col w-full items-center py-8 gap-y-8 bg-clearBlack">
+      <section className="flex flex-col w-full items-center py-8 gap-y-8 bg-clearBlack z-10 relative">
         <div className="flex flex-col gap-y-4 md:flex-row justify-center items-center gap-x-4">
           <Button url={BIRDEYE_LINK}>BUY &#36;USA</Button>
           <div className="p-2 md:p-4 rounded-xl border bg-[#195ba6] border-[#195ba6] text-xs md:text-base">
             69kdRLyP5DTRkpHraaSZAQbWmAwzF9guKjZfzMXzcbAs
           </div>
         </div>
+        <Image
+          className={csx(
+            "w-auto absolute z-40 rotate-[-12deg]",
+            "h-[150px] left-[-60px] top-[-100px]",
+            "md:h-[180px] md:right-[-190px] md:top-[-140px]",
+            "lg:h-[300px] lg:top-[-220px]"
+          )}
+          src="/pickup.png"
+          width={500}
+          height={500}
+          alt="AMERICA"
+        />
       </section>
       <section className="flex flex-row w-full justify-center items-center gap-x-8 pb-12 bg-clearBlack">
         <a
@@ -179,6 +227,16 @@ export default function Home() {
           government.
         </div>
         <div>© 2024 American Coin $USA. All rights reserved.</div>
+        <div>
+          Video content by{" "}
+          <a
+            className="text-[#c40c2e] underline hover:no-underline"
+            href="https://www.youtube.com/@callsignrice1785"
+          >
+            CallsignRice
+          </a>
+          .
+        </div>
       </footer>
     </main>
   );
