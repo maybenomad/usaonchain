@@ -165,8 +165,8 @@ export default function Home() {
         <div
           className={`text-3xl flex items-center justify-center gap-x-4 flex-wrap md:text-5xl font-bold uppercase ${myFont.className}`}
         >
-          <span style={{ color: "#195ba6" }}>What</span> the{" "}
-          <span style={{ color: "#c40c2e" }}>fuck</span> is a kilometer?
+          <span style={{ color: "#195ba6" }}>WTF</span> IS
+          <span style={{ color: "#c40c2e" }}>A</span> KILOMETRE?
         </div>
         <p className="text-lg md:text-2xl md:w-[50%] text-center">
           We don&#39;t know and we don&#39;t care. Because we own a piece of the
