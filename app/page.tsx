@@ -91,7 +91,7 @@ export default function Home() {
         )}
       >
         <Image
-          className="relative drop-shadow-2xl z-40 md:hidden"
+          className="relative drop-shadow-2xl md:hidden"
           src="/apaches.png"
           height={400}
           width={600}
