@@ -36,7 +36,9 @@ function Button({ url, children }: { url: string; children: React.ReactNode }) {
 
 export default function Home() {
   return (
-    <main className={`relative flex min-h-screen flex-col items-center`}>
+    <main
+      className={`relative flex min-h-screen flex-col items-center overflow-x-hidden`}
+    >
       <header
         className={csx(
           "flex flex-col justify-center items-center bg-black pt-12 md:pb-0 md:pt-6 relative"
@@ -177,6 +179,21 @@ export default function Home() {
           on-chain by a strong community of god-fearing patriots. We will not
           stop until all other memes have been liberated.
         </p>
+      </section>
+      <section className="flex flex-col w-full items-center py-12 gap-y-4 px-8 bg-clearBlack relative">
+        <div
+          className={`text-3xl md:text-5xl font-bold uppercase ${myFont.className}`}
+        >
+          <span style={{ color: "#195ba6" }}>Our</span> road
+          <span style={{ color: "#c40c2e" }}>map</span>
+        </div>
+        <Image
+          className="w-full md:w-auto md:h-[400px]"
+          src="/usaroadmap.png"
+          height={600}
+          width={600}
+          alt="AMERICA"
+        />
       </section>
       <section className="flex flex-col w-full items-center py-12 gap-y-4 px-8 bg-clearBlack">
         <div
