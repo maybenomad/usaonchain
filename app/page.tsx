@@ -39,7 +39,7 @@ export default function Home() {
     <main className={`relative flex min-h-screen flex-col items-center`}>
       <header
         className={csx(
-          "flex flex-col justify-center items-center bg-black pt-12 md:pb-0 md:pt-6"
+          "flex flex-col justify-center items-center bg-black pt-12 md:pb-0 md:pt-6 relative"
         )}
       >
         <h1
@@ -100,7 +100,21 @@ export default function Home() {
           <Icon.X />
         </a>
       </section>
-      <section className="flex flex-col w-full items-center py-12 gap-y-4 px-8 bg-clearBlack">
+      <section
+        className={csx(
+          "flex flex-row justify-center items-center gap-x-8 p-8 md:p-12",
+          "bg-clearBlack border-t border-b border-clearWhite"
+        )}
+      >
+        <a
+          href="/whitepaper.pdf"
+          target="_blank"
+          className="text-xl md:text-3xl uppercase font-bold hover:text-[#c40c2e] cursor:pointer"
+        >
+          Read Our Whitepaper
+        </a>
+      </section>
+      <section className="flex flex-col w-full items-center py-12 gap-y-4 px-8 bg-clearBlack relative">
         <div
           className={`text-3xl md:text-5xl font-bold uppercase ${myFont.className}`}
         >
