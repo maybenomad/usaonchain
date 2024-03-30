@@ -140,7 +140,7 @@ export default function Home() {
       </section>
       <section className="flex flex-row w-full justify-center items-center gap-x-8 pb-12 bg-clearBlack">
         <a
-          href="https://t.me/AMERICACOINUSA"
+          href="https://t.co/8npD0Li1E9"
           className="h-[50px] w-[50px] hover:text-[#c40c2e] cursor:pointer"
         >
           <Icon.Telegram />
