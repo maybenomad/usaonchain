@@ -152,6 +152,22 @@ export default function Home() {
           <Icon.X />
         </a>
       </section>
+      <section className="flex flex-row w-full justify-center items-center gap-x-8 pb-12 bg-clearBlack pt-6">
+        <a href="https://capitalism.americancoin.xyz">
+          <Image
+            className={csx(
+              "w-auto z-40 rotate-[8deg]",
+              "h-[150px]",
+              "md:h-[180px]",
+              "lg:h-[240px] transition duration-150 hover:scale-125 cursor-pointer"
+            )}
+            src="/dollar.png"
+            width={500}
+            height={500}
+            alt="AMERICA"
+          />
+        </a>
+      </section>
       <section
         className={csx(
           "flex flex-row justify-center items-center gap-x-8 p-8 md:p-12",
